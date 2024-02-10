@@ -4,11 +4,24 @@ body {
 
 .calculator {
   width: 220px;
-  margin: 100px auto;
+  margin: 50px auto;
   border: 2px solid #ccc;
   background-color: gray;
   border-radius: 5px;
   padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.ptext {
+  font-size: 5px;
+  margin-left: 180px;
+  margin-bottom: 2px;
+  padding: 3px;
+  background: linear-gradient(90deg,rgb(0, 255, 13),rgb(0, 251, 255));
+  border-radius: 10px;
 }
 
 #display {
@@ -38,6 +51,18 @@ button {
   border-radius: 3px;
   box-shadow: 0 0 3px cyan, 0 0 1px cyan;
 }
+
+.Redbutton {
+  background-color: rgb(185, 28, 28);
+}
+
+.Redbutton:hover {
+  background-color: #727272;
+  box-shadow: 0 0 5px rgb(128, 0, 0),
+  0 0 5px rgb(255, 0, 0), 0 0 50px rgb(255, 0, 0),
+  0 0 5px rgb(255, 0, 0), 0 0 3px rgb(255, 0, 0);
+}
+
 
 button:hover {
   background-color: #727272;
